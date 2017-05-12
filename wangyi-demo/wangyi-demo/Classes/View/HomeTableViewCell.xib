@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="94" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="wangyi_demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="94"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rcd-QT-MK0">
+                        <rect key="frame" x="15" y="8" width="100" height="77.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="RMC-rO-nS4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小鱼网络科技小鱼网络小鱼网络科技小鱼网络" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5N-5h-5Kk">
+                        <rect key="frame" x="125" y="8" width="213" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网易新闻" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfa-AE-YiO">
+                        <rect key="frame" x="125" y="63.5" width="57.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666跟帖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7p-yR-6Yt">
+                        <rect key="frame" x="282.5" y="63.5" width="55" height="17"/>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="3"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Rcd-QT-MK0" secondAttribute="bottom" constant="8" id="4OT-Ry-tBL"/>
+                    <constraint firstItem="Rcd-QT-MK0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Aa5-Ml-10X"/>
+                    <constraint firstItem="U7p-yR-6Yt" firstAttribute="trailing" secondItem="W5N-5h-5Kk" secondAttribute="trailing" id="Els-Ii-n7a"/>
+                    <constraint firstAttribute="trailing" secondItem="W5N-5h-5Kk" secondAttribute="trailing" constant="15" id="GDd-AO-sx4"/>
+                    <constraint firstItem="W5N-5h-5Kk" firstAttribute="top" secondItem="Rcd-QT-MK0" secondAttribute="top" id="M0Z-pO-NhH"/>
+                    <constraint firstItem="U7p-yR-6Yt" firstAttribute="bottom" secondItem="Mfa-AE-YiO" secondAttribute="bottom" id="MMx-W4-F3h"/>
+                    <constraint firstItem="Mfa-AE-YiO" firstAttribute="leading" secondItem="W5N-5h-5Kk" secondAttribute="leading" id="P6S-n7-F1s"/>
+                    <constraint firstItem="W5N-5h-5Kk" firstAttribute="leading" secondItem="Rcd-QT-MK0" secondAttribute="trailing" constant="10" id="eTr-yE-a8Q"/>
+                    <constraint firstItem="Rcd-QT-MK0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="jQi-kz-t6c"/>
+                    <constraint firstItem="Mfa-AE-YiO" firstAttribute="bottom" secondItem="Rcd-QT-MK0" secondAttribute="bottom" constant="-5" id="rRb-2D-rqu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="followLabel" destination="U7p-yR-6Yt" id="Hoh-KO-0vE"/>
+                <outlet property="iconImageView" destination="Rcd-QT-MK0" id="DXP-Aw-NDm"/>
+                <outlet property="sourceLabel" destination="Mfa-AE-YiO" id="19o-m1-H6P"/>
+                <outlet property="titleLabel" destination="W5N-5h-5Kk" id="fS8-xw-n9O"/>
+            </connections>
+            <point key="canvasLocation" x="47" y="-6"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FB46740ECE296A11612D595 /* Pods_wangyi_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495134D320E3FD486EF58495 /* Pods_wangyi_demo.framework */; };
 		D52926DC1EC595ED0094523F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52926DB1EC595ED0094523F /* AppDelegate.swift */; };
-		D52926DE1EC595ED0094523F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52926DD1EC595ED0094523F /* ViewController.swift */; };
 		D52926E11EC595ED0094523F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52926DF1EC595ED0094523F /* Main.storyboard */; };
 		D52926E31EC595ED0094523F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52926E21EC595ED0094523F /* Assets.xcassets */; };
 		D52926E61EC595ED0094523F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52926E41EC595ED0094523F /* LaunchScreen.storyboard */; };
+		D52926F51EC59DDB0094523F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52926F11EC59DDB0094523F /* HomeViewController.swift */; };
+		D52926F71EC59E260094523F /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52926F61EC59E260094523F /* NetworkTools.swift */; };
+		D52926F91EC5AEED0094523F /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52926F81EC5AEED0094523F /* NewsModel.swift */; };
+		D52926FD1EC5B7990094523F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52926FB1EC5B7990094523F /* HomeTableViewCell.swift */; };
+		D52926FE1EC5B7990094523F /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52926FC1EC5B7990094523F /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		495134D320E3FD486EF58495 /* Pods_wangyi_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wangyi_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C473CDC34F66F94E2EE5FE8E /* Pods-wangyi-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangyi-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wangyi-demo/Pods-wangyi-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CAABBC2F4950613B022CBFEA /* Pods-wangyi-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangyi-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-wangyi-demo/Pods-wangyi-demo.release.xcconfig"; sourceTree = "<group>"; };
 		D52926D81EC595ED0094523F /* wangyi-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wangyi-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52926DB1EC595ED0094523F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D52926DD1EC595ED0094523F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D52926E01EC595ED0094523F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D52926E21EC595ED0094523F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D52926E51EC595ED0094523F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D52926E71EC595ED0094523F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52926F11EC59DDB0094523F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D52926F61EC59E260094523F /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		D52926F81EC5AEED0094523F /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		D52926FB1EC5B7990094523F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D52926FC1EC5B7990094523F /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB46740ECE296A11612D595 /* Pods_wangyi_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37F7B04CBE6E6F17786FA730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495134D320E3FD486EF58495 /* Pods_wangyi_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D52926CF1EC595ED0094523F = {
 			isa = PBXGroup;
 			children = (
 				D52926DA1EC595ED0094523F /* wangyi-demo */,
 				D52926D91EC595ED0094523F /* Products */,
+				E978F5F123E72148C2009D79 /* Pods */,
+				37F7B04CBE6E6F17786FA730 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,67 @@
 		D52926DA1EC595ED0094523F /* wangyi-demo */ = {
 			isa = PBXGroup;
 			children = (
+				D52926EF1EC59DDB0094523F /* Classes */,
 				D52926DB1EC595ED0094523F /* AppDelegate.swift */,
-				D52926DD1EC595ED0094523F /* ViewController.swift */,
-				D52926DF1EC595ED0094523F /* Main.storyboard */,
 				D52926E21EC595ED0094523F /* Assets.xcassets */,
 				D52926E41EC595ED0094523F /* LaunchScreen.storyboard */,
 				D52926E71EC595ED0094523F /* Info.plist */,
 			);
 			path = "wangyi-demo";
+			sourceTree = "<group>";
+		};
+		D52926EF1EC59DDB0094523F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D52926F21EC59DDB0094523F /* Model */,
+				D52926F41EC59DDB0094523F /* View */,
+				D52926F01EC59DDB0094523F /* Controller */,
+				D52926F31EC59DDB0094523F /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D52926F01EC59DDB0094523F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D52926DF1EC595ED0094523F /* Main.storyboard */,
+				D52926F11EC59DDB0094523F /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D52926F21EC59DDB0094523F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D52926F81EC5AEED0094523F /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D52926F31EC59DDB0094523F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D52926F61EC59E260094523F /* NetworkTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D52926F41EC59DDB0094523F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D52926FB1EC5B7990094523F /* HomeTableViewCell.swift */,
+				D52926FC1EC5B7990094523F /* HomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E978F5F123E72148C2009D79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C473CDC34F66F94E2EE5FE8E /* Pods-wangyi-demo.debug.xcconfig */,
+				CAABBC2F4950613B022CBFEA /* Pods-wangyi-demo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D52926EA1EC595ED0094523F /* Build configuration list for PBXNativeTarget "wangyi-demo" */;
 			buildPhases = (
+				3922EBEEFDFB8317DE1699D0 /* [CP] Check Pods Manifest.lock */,
 				D52926D41EC595ED0094523F /* Sources */,
 				D52926D51EC595ED0094523F /* Frameworks */,
 				D52926D61EC595ED0094523F /* Resources */,
+				13F8CB26704210005EDD0C58 /* [CP] Embed Pods Frameworks */,
+				5CF192D6AAF8598AF2951EF3 /* [CP] Copy Pods Resources */,
+				D52926FA1EC5B1360094523F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -96,8 +176,8 @@
 				TargetAttributes = {
 					D52926D71EC595ED0094523F = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = VVCSZ7P478;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = Z75E959WFF;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -126,19 +206,84 @@
 			files = (
 				D52926E61EC595ED0094523F /* LaunchScreen.storyboard in Resources */,
 				D52926E31EC595ED0094523F /* Assets.xcassets in Resources */,
+				D52926FE1EC5B7990094523F /* HomeTableViewCell.xib in Resources */,
 				D52926E11EC595ED0094523F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13F8CB26704210005EDD0C58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangyi-demo/Pods-wangyi-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3922EBEEFDFB8317DE1699D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF192D6AAF8598AF2951EF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangyi-demo/Pods-wangyi-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52926FA1EC5B1360094523F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D52926D41EC595ED0094523F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52926DE1EC595ED0094523F /* ViewController.swift in Sources */,
+				D52926F91EC5AEED0094523F /* NewsModel.swift in Sources */,
+				D52926FD1EC5B7990094523F /* HomeTableViewCell.swift in Sources */,
 				D52926DC1EC595ED0094523F /* AppDelegate.swift in Sources */,
+				D52926F51EC59DDB0094523F /* HomeViewController.swift in Sources */,
+				D52926F71EC59E260094523F /* NetworkTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +296,7 @@
 				D52926E01EC595ED0094523F /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D52926E41EC595ED0094523F /* LaunchScreen.storyboard */ = {
@@ -261,32 +407,36 @@
 		};
 		D52926EB1EC595ED0094523F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C473CDC34F66F94E2EE5FE8E /* Pods-wangyi-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = VVCSZ7P478;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z75E959WFF;
 				INFOPLIST_FILE = "wangyi-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wongyu.wangyi-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c5b39f34-f4eb-42f6-8c73-7991ed029a29";
-				PROVISIONING_PROFILE_SPECIFIER = "XC Ad Hoc: *";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D52926EC1EC595ED0094523F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAABBC2F4950613B022CBFEA /* Pods-wangyi-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = VVCSZ7P478;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z75E959WFF;
 				INFOPLIST_FILE = "wangyi-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wongyu.wangyi-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c5b39f34-f4eb-42f6-8c73-7991ed029a29";
-				PROVISIONING_PROFILE_SPECIFIER = "XC Ad Hoc: *";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -310,6 +460,7 @@
 				D52926EC1EC595ED0094523F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
